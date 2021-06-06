@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt=Kampang-Bot" src="https://img.shields.io/badge/Kampang%20VERSION-4.+-brightgreen"/>
+    <img alt=PUTRA-USERBOT" src="https://img.shields.io/badge/XPUTRA%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
     <a href="https://travis-ci.com/ManusiaRakitan/Kampang-Bot.svg?branch=Kampang" /></a>
     <a href="https://app.codacy.com/gh/ManusiaRakitan/Kampang-Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
@@ -17,14 +17,14 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">KAMPANG ░ 🐨</a></b></h2>
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">PUTRA-USERBOT ░ 🔥</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/ManusiaRakitan/Kampang-Bot"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/Xputramndla/PUTRA-USERBOT"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="PUTRA-USERBOT" width=400px></a>
    <br>
    <br>
 </p>
-<h1>BOT-KAMPANG</h1>
+<h1>PUTRA-USERBOT</h1>
 <b>BOT NYA TOXIC HATI - HATI!</b>
 <br>
 <br>
