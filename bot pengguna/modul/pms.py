@@ -27,27 +27,27 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU KAMPANG?\n"
-    f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
+    "    ❤️HEYYO WELCOME❤️\n"
+    f"  SELAMAT DATANG DI ROOM CHAT `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Babu Nya `{DEFAULTUSER}`\n"
+    f"Saya bot asistant `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Kontol\n"
-    " Gausah Spam Ya Anjeng\n"
-    " Lu Bandel?\n"
-    " Gua Sentil Biji Peler Lu\n"
-    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
-    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
+    " BACA YA KAK\n"
+    " Gausah Spam Ya\n"
+    " KAMU NAKAL?\n"
+    " AKU Sentil KEPALAMU\n"
+    " Tungguin Aja Ya MANIS Sampai Baginda\n"
+    f" `{DEFAULTUSER}` Ngebaca Pesan KAMU\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "   😡😡KONTOLLLLL 😡😡\n"
+    "   🔥🔥PUTRA USER-BOT🔥🔥\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🐨Babu Nya `{DEFAULTUSER}`\n"
-    "- DIKENTOT OLEH 🐨Kampang-BOT🐨")
+    f"- ©botAsistant `{DEFAULTUSER}`\n"
+    "- JANGAN LUPA JOIN GRUP [ @TongkronganOnline_1 ]")
 # =================================================================
 
 
