@@ -7,9 +7,9 @@ import logging
 from telethon import version
 from userbot import ALIVE_LOGO, ALIVE_NAME, KAMPANG_TEKS_KUSTOM, BOT_VER, CMD_HELP, StartTime, bot, BOT_USERNAME
 from userbot.events import register
-DEFAULTUSER = ALIVE_NAME or "kampang"
+DEFAULTUSER = ALIVE_NAME or "XPUTRA"
 KOALA_PIC = ALIVE_LOGO or None
-KAMPANGTEKS = KAMPANG_TEKS_KUSTOM or "🐨 𝐁𝐎𝐓-𝐊𝐀𝐌𝐏𝐀𝐍𝐆 MENYALA ANJENG 🐨"
+KAMPANGTEKS = KAMPANG_TEKS_KUSTOM or "PUTRA REMIX MENYALA🔥"
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s",
@@ -31,7 +31,7 @@ async def amireallyalive(alive):
         bot_kampang += f"**Pყƚԋσɳ  :** `{python_version()}\n`"
         bot_kampang += f"**Uptime :** `{uptime}\n`"
         bot_kampang += f"**ƙąɱ℘ąŋɠ:** {DEFAULTUSER}\n"
-        bot_kampang += f" **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/manusiarakitann)\n"
+        bot_kampang += f" **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [PUTRA-USERBOT](https://github.com/Xputramndla/PUTRA-USERBOT)\n🔥 **Grup Official: **[Pencet Asu](t.me/TongkronganOnline_1)\n☬ **ѕυρρσят ву:** [PUTRA 🔥](t.me/TZputra)\n"
         bot_kampang += f"**┗▲━━━━━━━━━━━━━━━━━━━▲┛**"
         await bot.send_file(
             alive.chat_id,
@@ -52,7 +52,7 @@ async def amireallyalive(alive):
             f"**Pყƚԋσɳ :** `{python_version()}\n`"
             f"**Uptime :** `{uptime}\n`"
             f"**ƙąɱ℘ąŋɠ : ** {DEFAULTUSER}\n"
-            f"**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/manusiarakitann)\n"
+            f"**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [PUTRA-USERBOT](https://github.com/Xputramndla/PUTRA-USERBOT)\n🔥 **Grup Official: **[Pencet Asu](t.me/TongkronganOnline_1)\n☬ **ѕυρρσят ву:** [PUTRA 🔥](t.me/TZputra)\n"
             f"**┗▲━━━━━━━━━━━━━━━━━━━▲┛**"
         )
 
@@ -64,13 +64,13 @@ async def amireallyalive(alive):
     tgbotusername = BOT_USERNAME
     reply_to_id = await reply_id(alive)
     bot_kampang = f"**┏▼━━━━━━━━━━━━━━━━━━━▼┓**\n"
-    bot_kampang += f"**☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬**\n\n"
+    bot_kampang += f"**☬ PUTRA-USERBOT ☬**\n\n"
     bot_kampang += f"**Tҽɳɠҽɳƚσƚ :** `{version.__version__}\n`"
     bot_kampang += f"**Vҽɾʂι Kαɱραɳɠ :** `{BOT_VER}`\n"
     bot_kampang += f"**Pყƚԋσɳ  :** `{python_version()}\n`"
     bot_kampang += f"**Uptime :** `{uptime}\n`"
     bot_kampang += f"**ƙąɱ℘ąŋɠ :** {DEFAULTUSER}\n"
-    bot_kampang += f"**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/manusiarakitann)\n"
+    bot_kampang += f"**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [PUTRA-USERBOT](https://github.com/Xputramndla/PUTRA-USERBOT)\n🔥 **Grup Official: **[Pencet Asu](t.me/TongkronganOnline_1)\n☬ **ѕυρρσят ву:** [PUTRA 🔥](t.me/TZputra)\n"
     bot_kampang += f"**┗▲━━━━━━━━━━━━━━━━━━━▲┛**"
     results = await bot.inline_query(tgbotusername, bot_kampang)  # pylint:disable=E0602
     await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
