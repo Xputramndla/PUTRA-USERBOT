@@ -42,10 +42,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**『⍟𝐊𝐎𝐍𝐓𝐎𝐋』**")
-    await pong.edit("**◆◈𝐊𝐀𝐌𝐏𝐀𝐍𝐆◈◆**")
+    await pong.edit("**『⍟BISMILLAH』**")
+    await pong.edit("**◆◈PUTRA◈◆**")
     await pong.edit("**𝐏𝐄𝐂𝐀𝐇𝐊𝐀𝐍 𝐁𝐈𝐉𝐈 𝐊𝐀𝐔 𝐀𝐒𝐔**")
-    await pong.edit("**☬𝐒𝐈𝐀𝐏 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐀𝐒𝐔☬**")
+    await pong.edit("**☬SIAP PUTRA NONJOK PALALU☬**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
@@ -55,25 +55,25 @@ async def pingme(pong):
                     f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
 
-@register(outgoing=True, pattern='^kntl(?: |$)(.*)')
+@register(outgoing=True, pattern='^put(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**LU KONTOL**")
+    await typew.edit(f"**PUTRAAA**")
     sleep(3)
-    await typew.edit("`KONTOL KONTOL KONTOL!!!`")
+    await typew.edit("`PUTRA GANTENGG KAMU DIMANA!!!`")
     sleep(3)
-    await typew.edit("`DASAR KEPALA KONTOL!!!`")
+    await typew.edit("`PUTRAAAAA!!!`")
 # Owner @Si_Dian
 
 
-@register(outgoing=True, pattern='^G(?: |$)(.*)')
+@register(outgoing=True, pattern='^.pantun(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
+    await typew.edit(f"**keliling keliling bawa semangka mateng **")
     sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
+    await typew.edit("`kenalin nih bot putra gantengg!!!`")
 # Owner @Si_Dian
 
 
@@ -103,7 +103,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Getting Information...`")
     sleep(1)
-    await typew.edit("**Kampang Usage 🐨**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
+    await typew.edit("**PUTRA Usage 🔥**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
                      )
 # @mixiologist
 
